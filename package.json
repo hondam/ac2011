@@ -6,6 +6,7 @@
     , "vows": "0.6.0"
   }
   , "scripts": {
-      "test": "vows --spec"
+      "start": "node server.js &"
+    , "test": "vows --spec"
   }
 }
