@@ -1,5 +1,7 @@
 {
-  "dependencies": {
+    "name": "ac2011"
+  , "version": "0.0.1"
+  , "dependencies": {
       "request": "2.2.5"
     , "vows": "0.6.0"
   }
