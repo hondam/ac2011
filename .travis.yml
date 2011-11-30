@@ -5,4 +5,7 @@ node_js:
     - 0.6
 notifications:
   webhooks:
-    on_success: https://node-ninja.com/pr/6f892577-ed92-4af1-90d8-8b3413d242e3
+    on_success: always
+    on_failure: never
+    urls:
+      - https://node-ninja.com/pr/6f892577-ed92-4af1-90d8-8b3413d242e3
