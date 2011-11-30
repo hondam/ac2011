@@ -3,3 +3,5 @@ node_js:
     - 0.4
     - 0.5
     - 0.6
+notifications:
+  webhooks: https://node-ninja.com/pr/6f892577-ed92-4af1-90d8-8b3413d242e3
