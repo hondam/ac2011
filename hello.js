@@ -1,6 +1,6 @@
 var Hello = function() {
   this.ninja = function() {
-    return "こんにちはNode Ninja";
+    return "Hello Node Ninja";
   }
 };
 module.exports = Hello;

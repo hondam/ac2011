@@ -11,8 +11,8 @@ vows
       topic: function() {
         return hello.ninja();
       },
-      'レスポンスが「こんにちはNode Ninja」かチェックする': function(topic) {
-        assert.equal(topic, 'こんにちはNode Ninja');
+      'レスポンスが「Hello Node Ninja」かチェックする': function(topic) {
+        assert.equal(topic, 'Hello Node Ninja');
       }
     }
   })
