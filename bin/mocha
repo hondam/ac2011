@@ -7,7 +7,7 @@
 var program = require('commander')
   , exec = require('child_process').exec
   , path = require('path')
-  , mocha = require('../')
+  , mocha = require('mocha')
   , reporters = mocha.reporters
   , interfaces = mocha.interfaces
   , Runner = mocha.Runner
