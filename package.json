@@ -1,12 +1,16 @@
 {
     "name": "ac2011"
-  , "version": "0.0.1"
+  , "version": "0.0.2"
+  , "description": "for internal advent callendar 2011"
+  , "bin": {
+      "mocha": "./bin/mocha"
+  }
   , "dependencies": {
-      "request": "2.2.5"
-    , "vows": "0.6.0"
+      "mocha": "0.2.0"
+    , "commander": "0.3.2"
   }
   , "scripts": {
       "start": "node server.js &"
-    , "test": "vows --spec"
+    , "test": "make test"
   }
 }
